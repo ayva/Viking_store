@@ -1,8 +1,93 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Comic Sans MS, cursive, sans-serif;
   padding: 0px;
   margin: 0px;
 }
 div{
-  border: 1px solid #eee;
+ border: 1px solid red;
+}
+.top-bar{
+  height: 40px;
+  width: 100%;
+  
+  
+}
+
+.top-bar .top-bar-name{
+  padding: 10px 80px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.top-bar .top-bar-cart{
+  padding: 10px 80px;
+  font-size: 14px;
+  float: right;
+}
+.banner-name{
+  padding: 0px;
+  background-color: #333333;
+  color: white;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 80px;
+}
+
+.store-space {
+  padding: 2% 10%;
+}
+
+.main-hint{
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+  font-style: italic;
+  font-size: 14px;
+  color: #727682;
+}
+.item{
+width: 200px;
+color: white;
+text-align: center;
+border-radius: 0px;
+border: 2px solid #333333;
+
+}
+.item-name{
+  height: 30px;
+  line-height: 30px;
+  background-color: #333333
+
+}
+.item img{
+  height: 150px;
+  margin-right: -50px;
+}
+.item .item-price{
+  display: inline;
+  color: #727682;
+  font-size: 12px;
+  width: 50px;
+  height: 18px;
+  float: right;
+  margin-right: -5px;
+  background-color: white;
+  border: 2px solid #333333;
+}
+.item .item-footer{
+  background-color: #333333;
+  height: 30px;
+}
+.item .item-footer .item-button{
+  color: black;
+  height: 20px;
+  width: 90px;
+  background-color: #F8C590;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  margin: 5px;
+  font-size: 10px;
+  font-weight: bold;
 }
