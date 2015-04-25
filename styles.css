@@ -2,9 +2,13 @@ body {
   font-family: Comic Sans MS, cursive, sans-serif;
   padding: 0px;
   margin: 0px;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  
 }
 div{
- border: 1px solid red;
+ 
 }
 .top-bar{
   height: 40px;
@@ -46,6 +50,11 @@ div{
   font-style: italic;
   font-size: 14px;
   color: #727682;
+  margin-bottom: -10px;
+  border-bottom: 2px solid #333333;
+}
+.table-items{
+  margin-top: 10px;
 }
 .item{
 width: 200px;
@@ -62,8 +71,12 @@ border: 2px solid #333333;
 
 }
 .item img{
+  position: relative;
   height: 150px;
   margin-right: -50px;
+  max-width:100%;
+  max-height:100%;
+  z-index : -1;
 }
 .item .item-price{
   display: inline;
@@ -90,4 +103,39 @@ border: 2px solid #333333;
   margin: 5px;
   font-size: 10px;
   font-weight: bold;
+}
+.store-space .page-number ul{
+  text-align: center;
+}
+.store-space .page-number li{
+  color: blue;
+  display: inline;
+  list-style-type: none;
+  padding-right: 15px;
+  text-decoration: underline;
+
+}
+.store-space .page-number li:hover{
+  color: black;
+  text-decoration: none;
+}
+.footer {
+  padding: 20px;
+  height: 80px;
+  text-align: center;
+  color: orange;
+  background-color: #333333; 
+}
+.footer p{
+  text-align: left;
+  margin-left: auto;
+  vertical-align: middle;
+  width: 58%;
+  color: white;
+  font-size: 10px;
+}
+.footer img{
+vertical-align: middle;
+width: 15px;
+margin-right: 10px;
 }
